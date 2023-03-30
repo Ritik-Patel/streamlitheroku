@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
-
+import numpy as np
 
 # loading the saved models
 
@@ -12,8 +12,8 @@ with st.sidebar:
     
     selected = option_menu('Panic Prediction System',
                           
-                          ['Panic Prediction',
-                          icons=['activity','heart','person'],
+                          ['Panic Prediction],
+                          icons=['activity'],
                           default_index=0)
     
     
